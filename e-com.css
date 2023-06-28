@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:'Fasthand', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black;
+    font-family:'Ysabeau Office', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(144, 0, 255);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius:60px ;
+    outline: none;
+    margin-right: -35px;
+    font-family:'Ysabeau Office', sans-serif;
+    border: 2px solid rgb(153, 0, 255);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(143, 74, 189);
+    color:rgb(255, 255, 255);
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn0:hover{
+    color: rgb(75, 8, 119);
+}
+.main{
+  background: url(1.jpg)no-repeat;
+  background-size: cover;
+  height: 85vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(171, 78, 232);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    color: rgb(75, 8, 119);
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgb(171, 78, 232);
+    -webkit-box-shadow: -2px -1px 25px -4px rgb(171, 78, 232);
+    -moz-box-shadow: -2px -1px 25px -4px rgb(171, 78, 232);
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 65, 67);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn2:hover{
+    color: rgb(207, 169, 233);
+}
+.btn3{
+    height: 55px;
+    width: 45%;
+    border: none;
+    outline: none;
+    background-color: rgb(181, 120, 222);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.btn3:hover{
+    color: rgb(75, 8, 119);
+}
